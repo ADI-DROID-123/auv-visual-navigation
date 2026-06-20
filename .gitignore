@@ -1,0 +1,21 @@
+# --- ROS2 / Colcon Build Elements ---
+marine_ws/build/
+marine_ws/install/
+marine_ws/log/
+COLCON_IGNORE
+*.local
+
+# --- Python Cache ---
+__pycache__/
+*.py[cod]
+*$py.class
+
+# --- Gazebo / Project DAVE Artifacts ---
+*.log
+*.pcd
+.gazebo/
+
+# --- IDE & OS Clutter ---
+.vscode/
+.DS_Store
+Thumbs.db
