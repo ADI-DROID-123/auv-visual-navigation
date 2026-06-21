@@ -95,3 +95,30 @@ Project DAVE will be used as the simulation environment for underwater vehicle p
 ### Next Step
 
 Review installation requirements and launch a baseline underwater simulation.
+
+
+## Project DAVE Integration
+
+### Repository Inspection
+
+Cloned Project DAVE into:
+
+marine_ws/src/dave
+
+Top-level contents:
+
+* examples
+* extras
+* gazebo
+* legacy
+* models
+* tools
+* urdf
+
+### Observation
+
+Repository structure differs from a typical ROS 2 package layout and requires inspection of installation instructions before building.
+
+### Next Step
+
+Determine compatibility and build process for ROS 2 Lyrical and Gazebo Jetty.
