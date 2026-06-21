@@ -122,3 +122,30 @@ Repository structure differs from a typical ROS 2 package layout and requires in
 ### Next Step
 
 Determine compatibility and build process for ROS 2 Lyrical and Gazebo Jetty.
+
+
+## DAVE Compatibility Investigation
+
+### Discovery
+
+Project DAVE now has an official ROS 2 port targeting:
+
+* ROS 2 Jazzy
+* Gazebo Harmonic
+* Ubuntu 24.04
+
+The ROS 2 port was developed through Google Summer of Code 2024 and 2025.
+
+### Implication
+
+Current development environment is newer than the documented target platform:
+
+* Ubuntu 26.04
+* ROS 2 Lyrical
+* Gazebo Jetty
+
+Compatibility must therefore be verified during integration.
+
+### Next Step
+
+Review ROS 2 installation instructions and package dependencies before building.
