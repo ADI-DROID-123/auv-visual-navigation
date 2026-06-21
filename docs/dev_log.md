@@ -60,3 +60,22 @@ The AUV will:
 * Autonomous exploration.
 * Underwater visual SLAM.
 * Shipwreck mapping and inspection.
+
+
+## Project DAVE Setup
+
+### Current Environment
+
+* Ubuntu 26.04 LTS
+* ROS 2 Lyrical
+* Gazebo Jetty 10.1.1
+
+### Progress
+
+* ROS workspace created.
+* Git repository initialized.
+* Began Project DAVE integration.
+
+### Next Goal
+
+Launch the first underwater simulation and verify camera topics are available.
