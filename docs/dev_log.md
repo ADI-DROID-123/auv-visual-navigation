@@ -79,3 +79,19 @@ The AUV will:
 ### Next Goal
 
 Launch the first underwater simulation and verify camera topics are available.
+
+
+## Project DAVE Integration
+
+### Completed
+
+* Created ROS workspace (`marine_ws`).
+* Cloned Project DAVE source into `marine_ws/src/dave`.
+
+### Notes
+
+Project DAVE will be used as the simulation environment for underwater vehicle perception and navigation experiments.
+
+### Next Step
+
+Review installation requirements and launch a baseline underwater simulation.
