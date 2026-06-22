@@ -149,3 +149,30 @@ Compatibility must therefore be verified during integration.
 ### Next Step
 
 Review ROS 2 installation instructions and package dependencies before building.
+
+
+## DAVE Compatibility Investigation
+
+### Findings
+
+The currently documented ROS 2 version of Project DAVE targets:
+
+* Ubuntu 24.04
+* ROS 2 Jazzy
+* Gazebo Harmonic
+
+Attempting to run the documented installation procedure on:
+
+* Ubuntu 26.04
+* ROS 2 Lyrical
+* Gazebo Jetty
+
+may lead to dependency conflicts and broken package installations.
+
+### Decision
+
+Use the officially supported DAVE environment through Docker rather than attempting a native installation on the host system.
+
+### Rationale
+
+The project goal is autonomous underwater inspection and navigation, not simulator maintenance or dependency debugging.
