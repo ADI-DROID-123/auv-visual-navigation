@@ -176,3 +176,15 @@ Use the officially supported DAVE environment through Docker rather than attempt
 ### Rationale
 
 The project goal is autonomous underwater inspection and navigation, not simulator maintenance or dependency debugging.
+
+
+## Docker Setup
+
+### Completed
+- Installed Docker Engine on Ubuntu 26.04.
+- Enabled Docker service.
+- Configured user permissions for Docker.
+- Verified installation using the hello-world container.
+
+### Next Step
+- Pull and launch the Project DAVE development container.
