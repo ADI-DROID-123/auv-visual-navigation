@@ -52,3 +52,11 @@ COLCON_IGNORE
 .DS_Store
 Thumbs.db
 *~
+
+
+# Ignore internal Docker build artifacts
+.dockerignore
+docker_build_logs/
+
+# If you map the internal container workspace to a folder on your host, ignore it:
+dave_ws/
