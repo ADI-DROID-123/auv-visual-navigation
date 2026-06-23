@@ -188,3 +188,7 @@ The project goal is autonomous underwater inspection and navigation, not simulat
 
 ### Next Step
 - Pull and launch the Project DAVE development container.
+
+### Completed DAVE Installation
+- allows for custom DAVE source code as well
+- Launched provided BlueROV2 on ocean waves
