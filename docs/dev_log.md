@@ -220,6 +220,25 @@ Environment validation complete.
 
 ### Next Step
 
+
+
+# BlueROV2 (Project DAVE)
+
+## Sensors
+- IMU
+- Magnetometer
+- Odometry
+- Pose
+- Camera (TBD)
+- Sonar (TBD)
+
+## Actuators
+- Thrusters
+- Teleoperation
+- ...
+
+## ROS Topics
+| Topic | Message Type | Purpose |
 Launch a DAVE demonstration world and inspect available robot, sensor, and camera topics.
 
 ros2 launch dave_demos dave_robot.launch.py namespace:=bluerov2
