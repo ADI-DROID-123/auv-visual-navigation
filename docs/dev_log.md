@@ -222,3 +222,4 @@ Environment validation complete.
 
 Launch a DAVE demonstration world and inspect available robot, sensor, and camera topics.
 
+ros2 launch dave_demos dave_robot.launch.py namespace:=bluerov2
